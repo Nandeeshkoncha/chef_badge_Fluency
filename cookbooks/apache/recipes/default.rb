@@ -12,6 +12,6 @@ end
 
 service 'apache2' do
 	service_name 'httpd'
-	action[:install, :enable]
+	action [:start, :enable]
 end
 
