@@ -1,6 +1,5 @@
-host = node['hostname']
-
+host=node['hostname']
 file '/etc/motd' do
-	content "Hostname is this:#{hostname}"
+	content "Hostname is this: #{host}"
 end
 
