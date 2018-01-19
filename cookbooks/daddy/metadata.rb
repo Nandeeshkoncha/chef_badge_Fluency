@@ -4,7 +4,7 @@ maintainer_email 'k.nandhu4u@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures daddy'
 long_description 'Installs/Configures daddy'
-version '0.1.0'
+version '0.1.2'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
